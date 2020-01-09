@@ -1,42 +1,49 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Container, Nav, Navbar } from "react-bootstrap"
+import "./header.scss"
+import logo from "../images/logo.svg"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = ({ showModal }) => {
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  const [scroll, setScroll] = React.useState(1)
 
-Header.defaultProps = {
-  siteTitle: ``,
+  React.useEffect(() => {
+    const onScroll = () => {
+      const scrollCheck = window.scrollY < 100
+      if (scrollCheck !== scroll) {
+        setScroll(scrollCheck)
+      }
+    }
+    document.addEventListener("scroll", onScroll)
+    return () => {
+      document.removeEventListener("scroll", onScroll)
+    }
+  }, [scroll, setScroll])
+
+  return (
+    <header>
+      <Navbar expand="lg" fixed="top" className={scroll ? "" : "scrolled"}>
+        <Container>
+          <Link to="/" className="logo">
+            <img src={logo} alt="CX"/>
+          </Link>
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            =
+          </Navbar.Toggle>
+          <Navbar.Collapse id="navbar">
+            <Nav className="ml-auto main-nav">
+              <Navbar.Text><Link to="/services" activeClassName="active">Services</Link></Navbar.Text>
+              <Navbar.Text><Link to="/business" activeClassName="active">Business</Link></Navbar.Text>
+              <Navbar.Text><Link to="/support" activeClassName="active">Support</Link></Navbar.Text>
+              <Navbar.Text onClick={showModal}>Book Now</Navbar.Text>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+
+      </Navbar>
+    </header>
+  )
 }
 
 export default Header

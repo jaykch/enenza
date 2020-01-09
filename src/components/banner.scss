@@ -1,0 +1,52 @@
+@import './_variables';
+
+#home-banner {
+  background: -webkit-linear-gradient(to right top, rgba(36, 31, 52, 0.9), rgba(36, 31, 52, 0.8), rgba(36, 31, 52, 0.7), rgba(36, 31, 52, 0.6), rgba(36, 31, 52, 0.5)), url("../images/home/banner.jpg") center no-repeat; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, rgba(36, 31, 52, 0.9), rgba(36, 31, 52, 0.8), rgba(36, 31, 52, 0.7), rgba(36, 31, 52, 0.6), rgba(36, 31, 52, 0.5)), url("../images/home/banner.jpg") center no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  padding: 14rem 0 8rem;
+
+  .banner-text{
+    font-size: 1.2rem;
+
+    p{
+      font-weight: 500;
+      max-width: 400px;
+      border-bottom: 3px solid grey;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .banner-subtitle{
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    font-size: 1.8rem;
+    p{
+      border-left: 4px solid $tertiary;
+      padding-left: 1rem;
+      text-transform: uppercase;
+      span{
+        color: $tertiary;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #home-banner{
+
+   .banner-subtitle{
+     height: 20vh;
+   }
+  }
+}

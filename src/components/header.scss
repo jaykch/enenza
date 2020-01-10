@@ -51,12 +51,19 @@ header {
   color: $primary;
 
   .navbar {
-    padding: .5rem 1rem !important;
+    padding: 0 !important;
     -webkit-transition: background 0.7s ease;
     -moz-transition: background 0.7s ease;
     -ms-transition: background 0.7s ease;
     -o-transition: background 0.7s ease;
     transition: background 0.7s ease;
+
+    .container{
+      padding: .6rem 2rem!important;
+      background: $secondaryBackground;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
 
     span.navbar-text:nth-last-child(1) {
       border: 2px solid $tertiary;
@@ -81,13 +88,13 @@ header {
     }
   }
 
-  .navbar.scrolled {
-    background: $secondaryBackground;
-
-    a {
-      color: $primary;
-    }
-  }
+  //.navbar.scrolled {
+  //  background: $secondaryBackground;
+  //
+  //  a {
+  //    color: $primary;
+  //  }
+  //}
 
   .logo {
     padding-top: .3125rem;

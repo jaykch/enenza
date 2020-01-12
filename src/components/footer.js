@@ -2,6 +2,7 @@ import React from "react"
 import { Col, Row, Container } from "react-bootstrap"
 import "./footer.scss"
 import { FaInstagram, FaFacebookSquare, FaLinkedinIn, FaTwitter } from "react-icons/fa"
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -10,7 +11,9 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <ul className="site-links">
-              <li>Become a driver</li>
+              <li>
+                <Link to="/driver" className="logo">Become a driver</Link>
+              </li>
               <li><a href="mailto:webmaster@example.com">Get in touch</a></li>
             </ul>
           </Col>

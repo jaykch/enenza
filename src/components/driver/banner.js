@@ -1,16 +1,13 @@
 import React from "react"
 import { Col, Container, Row } from "react-bootstrap"
 
-const Transfers = () => {
+const Banner = () => {
   return (
-    <section id="transfers">
+    <section id="driver-banner">
       <Container>
         <Row>
-          <Col md={8}>
-            Image
-          </Col>
-          <Col md={4}>
-            Image
+          <Col md={6}>
+            <h1>We're more than just partners.</h1>
           </Col>
         </Row>
       </Container>
@@ -18,4 +15,4 @@ const Transfers = () => {
   )
 }
 
-export default Transfers
+export default Banner

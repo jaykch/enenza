@@ -58,8 +58,8 @@ header {
     -o-transition: background 0.7s ease;
     transition: background 0.7s ease;
 
-    .container{
-      padding: .6rem 2rem!important;
+    .container {
+      padding: .6rem 2rem !important;
       background: $secondaryBackground;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
@@ -137,6 +137,18 @@ header {
     font-size: 2rem;
     color: $primary !important;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal {
+    .modal-dialog {
+      .modal-content {
+        svg {
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }
 

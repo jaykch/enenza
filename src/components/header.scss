@@ -60,7 +60,7 @@ header {
 
     .container {
       padding: .6rem 2rem !important;
-      background: $secondaryBackground;
+      //background: $secondaryBackground;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
     }
@@ -88,13 +88,13 @@ header {
     }
   }
 
-  //.navbar.scrolled {
-  //  background: $secondaryBackground;
-  //
-  //  a {
-  //    color: $primary;
-  //  }
-  //}
+  .navbar.scrolled {
+    background: $secondaryBackground;
+
+    a {
+      color: $primary;
+    }
+  }
 
   .logo {
     padding-top: .3125rem;

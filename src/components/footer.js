@@ -11,10 +11,9 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <ul className="site-links">
-              <li>
-                <Link to="/driver" className="logo">Become a driver</Link>
-              </li>
-              <li><a href="mailto:webmaster@example.com">Get in touch</a></li>
+              <h2>Get in touch</h2>
+              <li><a href="mailto:hello@enenza.com">Hello@enenza.com</a></li>
+              <li><a href="tel:+4402039941969">+44 0203 994 1969</a></li>
             </ul>
           </Col>
           <Col md={4}>
@@ -29,16 +28,24 @@ const Footer = () => {
               <li><a href="https://twitter.com/enenzauk" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
             </ul>
           </Col>
+          <Col md={4} className="text-right site-map">
+            <ul>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/business">For Business</Link></li>
+              <li><Link to="/support">Support & FAQ</Link></li>
+              <li><Link to="/driver">Become a driver</Link></li>
+            </ul>
+          </Col>
         </Row>
-        <Row>
+        <Row className="copyright">
           <Col md={4}>
-            © {new Date().getFullYear()} Enenza Limited
+            <p>© {new Date().getFullYear()} Enenza Limited</p>
           </Col>
           <Col md={4}>
-            <p className="text-center"> Terms & Conditions &nbsp; Privacy Policy</p>
+            <p className="text-center"><Link to="/terms">Terms & Conditions &nbsp; Privacy Policy</Link></p>
           </Col>
           <Col md={4} className="text-right">
-            London, UK
+            <p>London, UK</p>
           </Col>
         </Row>
       </Container>

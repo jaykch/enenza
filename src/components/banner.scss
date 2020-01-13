@@ -30,11 +30,17 @@
     justify-content: flex-end;
     align-items: flex-end;
 
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     p{
       border-left: 4px solid $tertiary;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
       padding-left: 1rem;
       text-transform: uppercase;
+      strong{
+
+        font-size: 1.9rem;
+      }
       span{
         color: $tertiary;
       }

@@ -7,7 +7,7 @@ const BusinessForm = () => {
       <Container>
         <Row>
           <Col md={{ span: 8, offset: 2 }} className="text-center">
-            <form action="https://formspree.io/jaykch@outlook.com" method="POST">
+            <form action="https://formspree.io/Admin@enenza.com" method="POST">
               <Form.Group controlId="formGroupName">
                 <Form.Control type="text" placeholder="Name*" name="Name" required/>
               </Form.Group>

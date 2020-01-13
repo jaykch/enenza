@@ -7,7 +7,7 @@ const DriverForm = () => {
       <Container>
         <Row>
           <Col md={{ span: 6, offset: 3 }} className="text-center form-container">
-            <form action="https://formspree.io/jaykch@outlook.com" method="POST">
+            <form action="https://formspree.io/Admin@enenza.com" method="POST">
               <Form.Group controlId="formGroupName">
                 <Form.Control type="text" placeholder="Full name*" name="Name" required/>
               </Form.Group>

@@ -1,5 +1,130 @@
 @import '../_variables';
 
-#transfers{
+.services-menu {
+  position: fixed;
+  margin-top: 30vh;
+  margin-left: 0;
+  list-style: none;
+  border-left: 1px solid black;
+  padding-left: 0.6rem;
+  line-height: 3rem;
 
+  a {
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000;
+  }
+
+  .active-service {
+    color: $tertiary;
+    position: relative;
+
+    &:before {
+      content: '';
+      height: 16px;
+      width: 16px;
+      border-radius: 100%;
+      top: 1px;
+      left: -0.6rem;
+      background-color: $tertiary;
+      position: absolute;
+      margin-left: -8px;
+    }
+  }
 }
+
+.service-text {
+  h3 {
+    margin-bottom: 3.5rem;
+    font-size: 2rem;
+  }
+}
+
+.service-title {
+  h2 {
+    display: inline-block;
+    border-top: 3px solid black;
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+  }
+}
+
+#transfers {
+  padding: 10rem 0 0;
+
+  p {
+    width: 250%;
+    margin-left: -150%;
+    line-height: 1.8rem;
+    background: white;
+    padding: 1.5rem 1rem 1.5rem 3rem;
+    border-right: $tertiary 10px solid;
+    font-weight: 500;
+  }
+}
+
+#point-to-point {
+  padding: 8rem 0 0;
+
+  .service-text {
+    z-index: 2;
+  }
+
+  .image-container {
+    z-index: 1;
+  }
+
+  p {
+    width: 250%;
+    margin-right: -150%;
+    line-height: 1.8rem;
+    background: white;
+    padding: 1.5rem 3rem 1.5rem 1rem;
+    border-left: $tertiary 10px solid;
+    font-weight: 500;
+  }
+}
+
+#timed {
+  padding: 8rem 0 8rem;
+
+  p {
+    width: 250%;
+    margin-left: -150%;
+    line-height: 1.8rem;
+    background: white;
+    padding: 1.5rem 1rem 1.5rem 3rem;
+    border-right: $tertiary 10px solid;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .services-menu {
+    display: none;
+  }
+
+  #transfers, #timed {
+    p {
+      width: 100%;
+      margin: 0 0 2rem;
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  #point-to-point {
+    p {
+      width: 100%;
+      margin: 0 0 2rem;
+      padding: 0 0 0 1rem;
+    }
+  }
+
+  .service-text {
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+

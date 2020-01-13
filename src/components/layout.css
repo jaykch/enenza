@@ -12,7 +12,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-* {
+*, svg {
     font-family: 'Montserrat', sans-serif !important;
 }
 

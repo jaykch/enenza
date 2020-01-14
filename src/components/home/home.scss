@@ -81,6 +81,7 @@
     letter-spacing: .1rem;
     margin: 2rem 0;
     font-size: 1.1rem;
+    color: #fafafa;
   }
 
   .row:before {
@@ -125,8 +126,8 @@
   padding: 4rem 0 8rem;
   position: relative;
 
-  .row{
-    div{
+  .row {
+    div {
       z-index: 1;
     }
   }
@@ -236,9 +237,55 @@
       font-weight: 600;
     }
   }
+
+  .carousel {
+
+    max-width: 95vw;
+
+    .card-title {
+      display: inline-block;
+      width: 50%;
+      margin: 0 auto;
+      background: $secondary;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      text-align: center;
+      padding: 0.2rem;
+    }
+
+    img {
+      width: 70%;
+      margin: 2rem auto 1rem;
+    }
+
+    p {
+      padding-bottom: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      margin-top: 1rem;
+      color: black;
+      font-weight: 500;
+    }
+
+    span {
+      color: $tertiary;
+      font-size: 1rem;
+      font-weight: 500;
+      display: block;
+      text-align: center;
+    }
+
+    .carousel-indicators {
+      margin: 0;
+
+      li {
+        background-color: $tertiary;
+      }
+    }
+  }
 }
 
-#faqs{
+#faqs {
   background-color: $secondaryBackground;
   color: $primary;
   position: relative;
@@ -262,20 +309,20 @@
   }
 }
 
-#app{
+#app {
   background: #f1f1f1;
   padding: 6rem 0 2rem;
 
-  p{
+  p {
     font-size: 1rem;
     line-height: 2rem;
   }
 
-  img{
+  img {
     height: 400px;
   }
 
-  .book-button{
+  .book-button {
     padding: 0.5rem 1rem;
     background-color: $tertiary;
     color: white;
@@ -289,9 +336,21 @@
     -ms-transition: opacity 0.4s ease;
     -o-transition: opacity 0.4s ease;
     transition: opacity 0.4s ease;
-    
-    &:hover{
+
+    &:hover {
       opacity: 0.7;
     }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .tabs-wrapper {
+    display: none;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap"
+import { Container, Row, Col, Tab, Nav, Carousel, Card } from "react-bootstrap"
 import car from "../../images/home/car.png"
 
 const Choices = () => {
@@ -11,6 +11,8 @@ const Choices = () => {
             <Col md={12} className="text-center">
               <h2>Ride choices</h2>
             </Col>
+          </Row>
+          <Row className="tabs-wrapper">
             <Col md={4} className="choice-title">
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
@@ -47,7 +49,7 @@ const Choices = () => {
                         level.</p>
                     </Col>
                     <Col md={12} className="choice-subtitle">
-                    <p className="text-right">Comfort at every level, we promise.</p>
+                      <p className="text-right">Comfort at every level, we promise.</p>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -89,6 +91,57 @@ const Choices = () => {
             </Col>
           </Row>
         </Tab.Container>
+        <Row>
+          <Col>
+            <Carousel>
+              <Carousel.Item>
+                <Card>
+                  <Card.Title>Comfort</Card.Title>
+                  <Card.Img variant="top" src={car}/>
+                  <Card.Body>
+                    <span>1-4 Passengers </span>
+                    <span>4 Large Luggage</span>
+                    <Card.Text>
+                      Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
+                      airport runs, business travel or when you got kids with you. Sublime comfort even at entry
+                      level.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card>
+                  <Card.Title>Executive</Card.Title>
+                  <Card.Img variant="top" src={car}/>
+                  <Card.Body>
+                    <span>1-4 Passengers </span>
+                    <span>4 Large Luggage</span>
+                    <Card.Text>
+                      Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
+                      airport runs, business travel or when you got kids with you. Sublime comfort even at entry
+                      level.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card>
+                  <Card.Title>Vast</Card.Title>
+                  <Card.Img variant="top" src={car}/>
+                  <Card.Body>
+                    <span>1-4 Passengers </span>
+                    <span>4 Large Luggage</span>
+                    <Card.Text>
+                      Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
+                      airport runs, business travel or when you got kids with you. Sublime comfort even at entry
+                      level.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row>
       </Container>
 
 

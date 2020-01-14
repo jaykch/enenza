@@ -1,0 +1,87 @@
+@import '../_variables';
+
+#support-banner{
+  background: -webkit-linear-gradient(to right top, rgba(36, 31, 52, 0.9), rgba(36, 31, 52, 0.8), rgba(36, 31, 52, 0.7), rgba(36, 31, 52, 0.6), rgba(36, 31, 52, 0.5)), url("../../images/business/banner.jpg") center no-repeat; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, rgba(36, 31, 52, 0.9), rgba(36, 31, 52, 0.8), rgba(36, 31, 52, 0.7), rgba(36, 31, 52, 0.6), rgba(36, 31, 52, 0.5)), url("../../images/business/banner.jpg") center no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: #fafafa;
+  margin: 0;
+  padding: 12rem 0 6rem;
+
+  h1 {
+    line-height: 4rem;
+    color: #fafafa;
+  }
+}
+
+#support-faqs{
+  .search-bar{
+    input{
+      margin: 3rem 0 2rem;
+      display: block;
+      width: 100%;
+      background: $secondary;
+      border: none;
+      outline: none;
+      padding: 0.5rem;
+      font-weight: 500;
+    }
+  }
+
+  .questions {
+    h2{
+      margin: 2rem 0 1rem;
+      background: $secondary;
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .ant-collapse{
+      padding-bottom: 3rem;
+      font-weight: 500;
+
+      .ant-collapse-header{
+        color: $tertiary;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+#support-contact{
+  padding: 6rem 0;
+
+  p{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .support-contact{
+    display: inline-block;
+    margin: 0 25px;
+
+    span{
+      display: block;
+      margin: 0.5rem auto;
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      background-color: #4e555b;
+    }
+
+    a{
+      color: $tertiary;
+      font-weight: 500;
+
+      transition: opacity 0.4s ease;
+      text-decoration: none;
+
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+  }
+}

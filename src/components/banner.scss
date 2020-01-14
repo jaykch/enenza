@@ -19,7 +19,7 @@
     p{
       font-weight: 500;
       max-width: 400px;
-      border-bottom: 3px solid grey;
+      border-bottom: 3px solid $tertiary;
       padding-bottom: 0.5rem;
     }
   }
@@ -50,9 +50,27 @@
 
 @media only screen and (max-width: 768px) {
   #home-banner{
+    padding: 0;
+    height: 100vh;
+
+    .banner-text{
+      height: 35vh;
+      display: flex;
+
+      p{
+        margin-top: auto;
+        width: 70%;
+      }
+    }
 
    .banner-subtitle{
-     height: 20vh;
+     height: 30vh;
+     p{
+       font-size: 1rem;
+       strong{
+         font-size: 1.3rem;
+       }
+     }
    }
   }
 }

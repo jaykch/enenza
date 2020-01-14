@@ -50,8 +50,18 @@
   }
 }
 
+
+#transfers, #timed, #point-to-point{
+  .row{
+    padding: 6rem 0;
+    //background-color: #4e555b;
+    background-color: #fafafa;
+  }
+}
+
 #transfers {
-  padding: 10rem 0 0;
+  padding: 5rem 0 0;
+
 
   p {
     width: 250%;
@@ -65,7 +75,7 @@
 }
 
 #point-to-point {
-  padding: 8rem 0 0;
+  padding: 5px 0 0;
 
   .service-text {
     z-index: 2;
@@ -87,7 +97,7 @@
 }
 
 #timed {
-  padding: 8rem 0 8rem;
+  padding: 5px 0 8rem;
 
   p {
     width: 250%;

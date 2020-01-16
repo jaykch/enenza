@@ -1,5 +1,21 @@
 @import '../_variables';
 
+#services-banner{
+  background: -webkit-linear-gradient(to right top, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../../images/home/banner.png") center no-repeat; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../../images/home/banner.png") center no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: #fafafa;
+  margin: 0;
+  padding: 12rem 0 6rem;
+
+  h1 {
+    line-height: 4rem;
+    color: #fafafa;
+  }
+}
+
 .services-menu {
   position: fixed;
   margin-top: 30vh;
@@ -64,8 +80,8 @@
 
 
   p {
-    width: 250%;
-    margin-left: -150%;
+    width: 150%;
+    margin-left: -100%;
     line-height: 1.8rem;
     background: white;
     padding: 1.5rem 1rem 1.5rem 3rem;
@@ -86,8 +102,8 @@
   }
 
   p {
-    width: 250%;
-    margin-right: -150%;
+    width: 150%;
+    margin-left: 50%;
     line-height: 1.8rem;
     background: white;
     padding: 1.5rem 3rem 1.5rem 1rem;
@@ -100,8 +116,8 @@
   padding: 5px 0 8rem;
 
   p {
-    width: 250%;
-    margin-left: -150%;
+    width: 150%;
+    margin-left: -100%;
     line-height: 1.8rem;
     background: white;
     padding: 1.5rem 1rem 1.5rem 3rem;

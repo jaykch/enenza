@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap"
 const Terms = () => {
   return (
     <Layout>
-      <SEO title="Services"/>
+      <SEO title="Terms & Conditions"/>
       <section id="terms">
         <Container>
           <Row>

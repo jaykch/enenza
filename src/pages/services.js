@@ -8,11 +8,13 @@ import "../components/services/services.scss"
 import Transfers from "../components/services/transfers"
 import PointToPoint from "../components/services/pointToPoint"
 import Timed from "../components/services/timed"
+import Banner from "../components/services/banner"
 
 const Services = () => {
   return (
     <Layout>
       <SEO title="Services"/>
+      <Banner/>
       {/*<Container>*/}
       {/*  <Row>*/}
       {/*    <Col md={2}>*/}

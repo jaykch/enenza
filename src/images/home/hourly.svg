@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f8f7;
+        opacity: 0.05;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #18232a;
+      }
+
+      .cls-4 {
+        filter: url(#Path_100);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#998675"/>
+      <stop offset="1" stop-color="#4d433b"/>
+    </linearGradient>
+    <filter id="Path_100" x="4.803" y="7.5" width="151" height="151" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#12121f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_135" data-name="Group 135" transform="translate(0.303)">
+    <rect id="Rectangle_218" data-name="Rectangle 218" class="cls-1" width="160" height="160" rx="10" transform="translate(-0.303)"/>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -0.3, 0)">
+      <path id="Path_100-2" data-name="Path 100" class="cls-2" d="M53,0A53,53,0,1,1,0,53,53,53,0,0,1,53,0Z" transform="translate(27.3 27)"/>
+    </g>
+    <path id="Path_99" data-name="Path 99" class="cls-3" d="M31.11,56.71v-4.2H55.35V20.05h4.29V56.71Z" transform="translate(22.5 26.5)"/>
+  </g>
+</svg>

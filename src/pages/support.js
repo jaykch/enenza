@@ -9,7 +9,8 @@ import Contact from "../components/support/contact"
 const Support = () => {
   return (
     <Layout>
-      <SEO title="Support"/>
+      <SEO title="Support"
+           description="Business or pleasure; ride with Enenza. Choose from our Point to point service, Airport transfers, or a driver by the hour.  Professional drivers, premium cars, expect nothing less."/>
       <Banner/>
       <Faqs/>
       <Contact/>

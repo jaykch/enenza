@@ -10,7 +10,8 @@ import BusinessForm from "../components/business/businessForm"
 const Business = () => {
   return (
     <Layout>
-      <SEO title="Business"/>
+      <SEO title="Business"
+           description="Organising ground transportation for your clients and guests couldn't be easier with Enenza. Enjoy instant bookings, flexible arrangements and priority allocation."/>
       <Banner/>
       <BusinessPlus/>
       <Features/>

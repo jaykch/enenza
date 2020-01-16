@@ -10,7 +10,8 @@ import "../components/home/home.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="Home"
+         description="Book a ride with Enenza, a London based executive travel service providing airport transfers, corporate travel and on-demand rides. A premium service at affordable prices."/>
     <Banner/>
     <Features/>
     <Services/>

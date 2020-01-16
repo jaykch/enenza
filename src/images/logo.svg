@@ -1,8 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="172.808" height="65.256" viewBox="0 0 172.808 65.256">
-  <g id="Group_87" data-name="Group 87" transform="translate(-889.5 -15)">
-    <path id="Path_1" data-name="Path 1" d="M733.507,44.01V66.427h29.762V73.9h-37.2V36.542h37.2V44.01Z" transform="translate(177.759 -7.907)" fill="#998675"/>
-    <rect id="Rectangle_8" data-name="Rectangle 8" width="22.325" height="7.468" transform="translate(918.707 43.407)" fill="#998675"/>
-    <rect id="Rectangle_9" data-name="Rectangle 9" width="62.256" height="62.256" transform="translate(891 16.5)" fill="rgba(0,0,0,0)" stroke="#998675" stroke-miterlimit="10" stroke-width="3"/>
-    <text id="ENENZA" transform="translate(960.308 54.855)" fill="#998675" font-size="23" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.01em"><tspan x="0" y="0">ENENZA</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 105.22 40" style="enable-background:new 0 0 105.22 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#988676;}
+	.st1{fill:none;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M40,40H0V0h40V40z M1.39,38.61h37.23V1.39H1.39V38.61z"/>
+	</g>
+	<g>
+		<g>
+			<polygon class="st0" points="13.58,13.58 13.58,26.41 30.69,26.41 30.69,30.69 9.31,30.69 9.31,9.31 30.69,9.31 30.69,13.58 			
+				"/>
+		</g>
+		<g>
+			<rect x="17.86" y="17.86" class="st0" width="12.83" height="4.28"/>
+		</g>
+	</g>
+	<g>
+		<rect x="43.32" y="15.41" class="st1" width="64.32" height="18.13"/>
+		<path class="st0" d="M51.65,23.94v1.47h-7.07v-9.42h6.88v1.47h-5.13v2.45h4.55v1.44h-4.55v2.6H51.65z"/>
+		<path class="st0" d="M61.97,15.98v9.42h-1.44l-5.2-6.38v6.38H53.6v-9.42h1.44l5.19,6.38v-6.38H61.97z"/>
+		<path class="st0" d="M71.58,23.94v1.47h-7.07v-9.42h6.88v1.47h-5.13v2.45h4.55v1.44h-4.55v2.6H71.58z"/>
+		<path class="st0" d="M81.9,15.98v9.42h-1.44l-5.2-6.38v6.38h-1.74v-9.42h1.44l5.19,6.38v-6.38H81.9z"/>
+		<path class="st0" d="M91.76,23.92v1.48h-8.03v-1.17l5.54-6.77h-5.45v-1.48h7.77v1.17l-5.54,6.77H91.76z"/>
+		<path class="st0" d="M99.48,23.22h-4.71l-0.93,2.18h-1.8l4.24-9.42H98l4.25,9.42h-1.83L99.48,23.22z M98.9,21.85l-1.78-4.12
+			l-1.76,4.12H98.9z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>

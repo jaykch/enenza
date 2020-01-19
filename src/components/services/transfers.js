@@ -7,10 +7,10 @@ const Transfers = () => {
     <section id="transfers">
       <Container>
         <Row>
-          <Col lg={8}>
+          <Col lg={7}>
             <img src={transfers} alt="Airport Transfers"/>
           </Col>
-          <Col lg={4} className="service-text">
+          <Col lg={5} className="service-text">
             <h3>Zooming through the sky</h3>
             <p>Dedicated flight status tracking, 30 minutes free waiting time and a complimentary meet and greet
               service. Our airport transfer service ensures you get to the airport on time and in comfort.

@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
+import { FaSms, FaBlackTie, FaUserClock, FaCarSide } from "react-icons/fa";
 
 const Features = () => {
   return (
@@ -7,19 +8,27 @@ const Features = () => {
       <Container>
         <Row>
           <Col md={3}>
-            <div className="feature-icon"></div>
+            <div className="feature-icon">
+              <FaSms/>
+            </div>
             <span>SMS updates for passengers</span>
           </Col>
           <Col md={3}>
-            <div className="feature-icon"></div>
+            <div className="feature-icon">
+              <FaBlackTie/>
+            </div>
             <span>Tailored arrangements</span>
           </Col>
           <Col md={3}>
-            <div className="feature-icon"></div>
+            <div className="feature-icon">
+              <FaUserClock/>
+            </div>
             <span>24/7 dedicated support</span>
           </Col>
           <Col md={3}>
-            <div className="feature-icon"></div>
+            <div className="feature-icon">
+              <FaCarSide/>
+            </div>
             <span>Priority vehicle allocation</span>
           </Col>
         </Row>

@@ -53,7 +53,12 @@
 .service-text {
   h3 {
     margin-bottom: 3.5rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  p{
+    line-height: 1.5rem;
   }
 }
 
@@ -73,16 +78,24 @@
     //background-color: #4e555b;
     background-color: #fafafa;
   }
+
+  img{
+    border-radius: 5px;
+  }
 }
 
 #transfers {
   padding: 5rem 0 0;
 
+  .service-text{
+    h3{
+      margin-right: 2.2rem;
+    }
+  }
 
   p {
-    width: 150%;
-    margin-left: -100%;
-    line-height: 1.8rem;
+    width: 100%;
+    margin-left: -50%;
     background: white;
     padding: 1.5rem 1rem 1.5rem 3rem;
     border-right: $tertiary 10px solid;
@@ -95,6 +108,10 @@
 
   .service-text {
     z-index: 2;
+
+    h3{
+      margin-left: 2.2rem;
+    }
   }
 
   .image-container {
@@ -102,9 +119,8 @@
   }
 
   p {
-    width: 150%;
+    width: 100%;
     margin-left: 50%;
-    line-height: 1.8rem;
     background: white;
     padding: 1.5rem 3rem 1.5rem 1rem;
     border-left: $tertiary 10px solid;
@@ -115,10 +131,15 @@
 #timed {
   padding: 5px 0 8rem;
 
+  .service-text{
+    h3{
+      margin-right: 2.2rem;
+    }
+  }
+
   p {
-    width: 150%;
-    margin-left: -100%;
-    line-height: 1.8rem;
+    width: 100%;
+    margin-left: -50%;
     background: white;
     padding: 1.5rem 1rem 1.5rem 3rem;
     border-right: $tertiary 10px solid;

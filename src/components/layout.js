@@ -3,7 +3,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Modal } from "react-bootstrap"
-import { MdClose } from "react-icons/md";
+import { MdClose } from "react-icons/md"
+import { Helmet } from "react-helmet"
 
 import Header from "./header"
 import "./layout.css"
@@ -27,6 +28,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        < meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} showModal={handleShow}/>
       <main>{children}</main>
       <Footer/>

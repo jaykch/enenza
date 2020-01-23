@@ -43,13 +43,13 @@ const Choices = () => {
                       <div className="choice-image-background"></div>
                     </Col>
                     <Col md={6} className="choice-text text-center">
-                      <h4>1-4 Passengers &nbsp; 4 Large Luggage</h4>
+                      <h4>4 Luggage  &nbsp; 1-4 Passengers &nbsp; Universal mobile device charges</h4>
                       <p>Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
                         airport runs, business travel or when you got kids with you. Sublime comfort even at entry
                         level.</p>
                     </Col>
                     <Col md={12} className="choice-subtitle">
-                      <p className="text-right">Comfort at every level, we promise.</p>
+                      <p className="text-right">Estate vehicles (Mercedes C class, Volvo v60 or similar)</p>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -60,13 +60,13 @@ const Choices = () => {
                       <div className="choice-image-background"></div>
                     </Col>
                     <Col md={6} className="choice-text text-center">
-                      <h4>Second choice</h4>
-                      <p>Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
-                        airport runs, business travel or when you got kids with you. Sublime comfort even at entry
-                        level.</p>
+                      <h4>2 Luggage  &nbsp; 1-4 Passengers &nbsp; Universal mobile device charges</h4>
+                      <p>Sink into the leathers, enjoy dual climate control and privacy glass as standard. Whether it's
+                        business or pleasure, our executive vehicles ensure total comfort, discretion and safety; the
+                        perfect balance.</p>
                     </Col>
                     <Col md={12} className="choice-subtitle">
-                      <p className="text-right">Comfort at every level, we promise.</p>
+                      <p className="text-right">Premium Saloons (Mercedes E class, Jaguar XF or similar)</p>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -77,13 +77,12 @@ const Choices = () => {
                       <div className="choice-image-background"></div>
                     </Col>
                     <Col md={6} className="choice-text text-center">
-                      <h4>Third choice</h4>
-                      <p>Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
-                        airport runs, business travel or when you got kids with you. Sublime comfort even at entry
-                        level.</p>
+                      <h4>6 Luggage  &nbsp; 1-7 Passengers &nbsp; Universal mobile device charges</h4>
+                      <p>All the extra space, same amount of comfort, Vehicles in the vast category is the one to choose
+                        for group rides or when you need the extra space on the move.</p>
                     </Col>
                     <Col md={12} className="choice-subtitle">
-                      <p className="text-right">Comfort at every level, we promise.</p>
+                      <p className="text-right">Business MPV's (Mercedes V class or similar)</p>
                     </Col>
                   </Row>
                 </Tab.Pane>
@@ -99,12 +98,12 @@ const Choices = () => {
                   <Card.Title>Comfort</Card.Title>
                   <Card.Img variant="top" src={car}/>
                   <Card.Body>
+                    <span>4 Luggage</span>
                     <span>1-4 Passengers </span>
-                    <span>4 Large Luggage</span>
+                    <span>Universal mobile device charges</span>
                     <Card.Text>
-                      Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for
-                      airport runs, business travel or when you got kids with you. Sublime comfort even at entry
-                      level.
+                      Ultimate boot space, leg and head room. Vehicles in this category is a perfect choice for airport
+                      runs , business travel or when you got kids with you. Sublime comfort even at entry level.
                     </Card.Text>
                   </Card.Body>
                 </Card>
